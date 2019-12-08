@@ -1,0 +1,17 @@
+.contacttext {
+    font-family: 'Audiowide', sans-serif;
+    margin: 20px;
+}
+
+.inputbox {
+    width: 900px;
+}
+
+#msgbox {
+    width: 900px;
+    height: 200px;
+}
+
+#msglabel {
+    top: 10px;
+}
