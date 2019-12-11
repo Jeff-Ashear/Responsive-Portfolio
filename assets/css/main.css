@@ -1,0 +1,82 @@
+header {
+    background-color: yellow;
+    color: red;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header div {
+    width: 50%;
+    float: left;
+}
+
+.links {
+    font-size: 1rem;
+    text-align: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    margin-top: 2em;
+    border: solid 1px black;
+}
+
+h1 {
+    padding: 20px;
+}
+
+@media screen and (min-width: 961px) {
+    body {
+        background-color: white;
+    }
+    header .content {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        background-color: pink;
+    }
+    header,
+    .content {
+        width: 100%;
+        /* margin: 20px; */
+    }
+    .main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+    .main {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: orange;
+    }
+    header div {
+        text-align: center;
+        width: 100%;
+    }
+    .links {
+        text-align: center;
+    }
+}

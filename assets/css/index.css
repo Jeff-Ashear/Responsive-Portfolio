@@ -1,0 +1,27 @@
+#biopic {
+    transform: rotate(90deg);
+    height: 200px;
+    width: 260px;
+    float: left;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#mediaBreak {
+    display: none;
+}
+
+p {
+    padding: 30px 20px 10px;
+}
+
+@media screen and (max-width: 640px) {
+    #biopic {
+        float: clear;
+        display: block;
+        margin: 0 auto;
+    }
+    #mediaBreak {
+        display: static;
+    }
+}
