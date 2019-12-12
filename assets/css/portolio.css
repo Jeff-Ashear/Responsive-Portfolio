@@ -1,0 +1,42 @@
+.tiles {
+    display: flex;
+}
+
+#tile1 {
+    background-image: url("/assets/images/Periphery\ logo.PNG");
+}
+
+#tile2 {
+    background-image: url("/assets/images/Cheesey Puff.PNG");
+}
+
+#tile3 {
+    background-image: url("/assets/images/Crystalbot.PNG");
+}
+
+#tile4 {
+    background-image: url("assets/images/Cheesey Puff.PNG");
+}
+
+#tile5 {
+    background-image: url("assets/images/Cheesey Puff.PNG");
+}
+
+.portfolioItem {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 25px 25px;
+}
+
+.portfolioItem .textButton {
+    position: absolute;
+    bottom: 20px;
+    background-color: coral;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
