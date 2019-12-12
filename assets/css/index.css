@@ -7,9 +7,10 @@
     padding-bottom: 40px;
 }
 
-#mediaBreak {
+
+/* #mediaBreak {
     display: none;
-}
+} */
 
 p {
     padding: 30px 20px 10px;
@@ -17,11 +18,15 @@ p {
 
 @media screen and (max-width: 640px) {
     #biopic {
-        float: clear;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin: 0 auto;
     }
-    #mediaBreak {
+    /* #mediaBreak {
         display: static;
+    } */
+    #bio {
+        display: block;
     }
 }
