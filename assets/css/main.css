@@ -18,11 +18,22 @@ header div {
 
 h1 {
     background-color: rgb(71, 81, 90);
+    padding: 15px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .links {
-    font-size: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
     text-align: right;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links:hover {
+    background-color: rgb(71, 81, 90);
+    color: darkorange;
+    font-weight: bold;
 }
 
 .clearfix::after {
