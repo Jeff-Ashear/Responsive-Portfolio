@@ -1,5 +1,7 @@
 .tiles {
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
 }
 
 #tile1 {
@@ -15,11 +17,11 @@
 }
 
 #tile4 {
-    background-image: url("assets/images/Cheesey Puff.PNG");
+    background-image: url("/assets/images/hermitscore1.PNG");
 }
 
 #tile5 {
-    background-image: url("assets/images/Cheesey Puff.PNG");
+    background-image: url("/assets/images/Entanglements.PNG");
 }
 
 .portfolioItem {
