@@ -5,23 +5,23 @@
 }
 
 #tile1 {
-    background-image: url("/assets/images/Periphery\ logo.PNG");
+    background-image: url("../images/Periphery Logo.PNG");
 }
 
 #tile2 {
-    background-image: url("/assets/images/Cheesey Puff.PNG");
+    background-image: url("../images/Cheesey Puff.PNG");
 }
 
 #tile3 {
-    background-image: url("/assets/images/Crystalbot.PNG");
+    background-image: url("../images/Crystalbot.PNG");
 }
 
 #tile4 {
-    background-image: url("/assets/images/hermitscore1.PNG");
+    background-image: url("../images/hermitscore1.PNG");
 }
 
 #tile5 {
-    background-image: url("/assets/images/Entanglements.PNG");
+    background-image: url("../images/Entanglements.PNG");
 }
 
 .portfolioItem {
